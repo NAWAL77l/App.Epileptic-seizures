@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SeizureMonitoring"
+        tools:targetApi="31">
+        <activity
+            android:name=".CaregiverEditProfielActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientEditProfielActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CaregiverProfielActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CaregiverLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CaregiverRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReportDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReportListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CaregiverListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfielActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificatonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CaregiverMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

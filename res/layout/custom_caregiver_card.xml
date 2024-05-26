@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/caregiverCard"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="71dp"
+            android:layout_gravity="center|left"
+            android:layout_margin="10dp"
+            android:src="@drawable/cargiver" />
+        <TextView
+            android:id="@+id/cUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center|top"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/cFullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FullName"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/cphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_bg"
+            android:text="Select"
+            android:layout_gravity="center|right"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"/>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

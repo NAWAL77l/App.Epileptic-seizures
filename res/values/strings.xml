@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Seizure Monitoring</string>
+    <string name="ptext">you\'ll be taken to a list of specialists \n according to your selection</string>
+</resources>
